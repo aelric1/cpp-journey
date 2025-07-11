@@ -1,1 +1,2 @@
-jjfjjjfjuf
+cout << "forth"; 
+fortune on the 
