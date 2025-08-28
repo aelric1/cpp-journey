@@ -2,4 +2,8 @@
 <blockquote>
   <em>A collection of beginner to advanced C++ projects I built while learning C++.</em>
 </blockquote>
+<P>Welcome to my **C++ learning journey**!</P>  
+<P>This repository contains all the codes, exercises, and algorithms I practice while learning **C++**.  </p>
+<p>The goal is to track my progress, improve problem-solving skills, and share my growth as a developer</P>
+  ![Mehdi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=entlv&theme=tokyo-night)
 </div>
