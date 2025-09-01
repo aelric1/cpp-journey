@@ -1,0 +1,26 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int num;
+    cout << "the program starts !";
+    vector<int> list = {};
+    cout << " enter numbes (enter negative int to break) :"<< endl;
+
+while(true){
+        cin >> num;
+        if(num<0) break;
+            list.push_back(num);
+     }
+int max = list[0];
+for(int i=1 ; i< list.size() ; i++){
+    if(list[i] < max){
+        max=list[i];
+    }
+}
+cout << "Maximum number is: " << max << endl;
+    
+    return 0; 
+}
