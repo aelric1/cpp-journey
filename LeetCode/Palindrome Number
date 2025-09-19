@@ -1,0 +1,12 @@
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        string n = to_string(x);
+        int i = n.size();
+        string re = n;
+        for (int idx = 0; idx < i / 2; idx++) {
+            swap(re[idx], re[i - 1 - idx]);
+        }
+        return re == n;
+    }
+};
